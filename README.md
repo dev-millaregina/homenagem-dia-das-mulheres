@@ -67,6 +67,17 @@ O passo a passo completo de build da imagem Docker, execução local, criação 
 | Azure Container Registry | Armazenamento da imagem Docker |
 | Azure Container Apps | Publicação do container com URL pública |
 
+## 🤖 Uso de Inteligência Artificial
+
+Durante o desenvolvimento do projeto foi utilizado o ChatGPT como ferramenta de apoio para auxiliar em algumas etapas do desenvolvimento.
+
+O uso de IA foi um requisito proposto na atividade do curso, sendo utilizado principalmente para:
+
+* apoio na estruturação de partes do código Python
+* auxílio na criação e organização do `README.md`
+* suporte na criação do `script.ps1` com os comandos utilizados no deploy
+* revisão e sugestões de melhoria na documentação
+
 ## 💡 Aprendizados
 
 * Desenvolvimento de aplicações web com Python e Streamlit
@@ -77,5 +88,4 @@ O passo a passo completo de build da imagem Docker, execução local, criação 
 
 ## 👩‍💻 Autora
 
-Milla Regina Lopes Vieira - [LinkedIn](https://www.linkedin.com/in/milla-regina-468020206/)"# homenagem-dia-das-mulheres" 
-"# homenagem-dia-das-mulheres" 
+Milla Regina Lopes Vieira - [LinkedIn](https://www.linkedin.com/in/milla-regina-468020206/)
