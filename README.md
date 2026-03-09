@@ -67,7 +67,7 @@ O passo a passo completo de build da imagem Docker, execução local, criação 
 | Azure Container Registry | Armazenamento da imagem Docker |
 | Azure Container Apps | Publicação do container com URL pública |
 
-## Aprendizados
+## 💡 Aprendizados
 
 * Desenvolvimento de aplicações web com Python e Streamlit
 * Containerização de aplicações com Docker
