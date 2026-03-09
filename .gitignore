@@ -1,2 +1,6 @@
-homenagem-mulheres\.dockerignore
-"homenagem-mulheres\.dockerignore" 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.dockerignore
