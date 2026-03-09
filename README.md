@@ -10,9 +10,7 @@
 
 Este projeto foi desenvolvido durante o curso Microsoft Azure Cloud Native 2026, promovido pela Digital Innovation One.
 
-A aplicação consiste em um gerador de homenagens para o Dia Internacional da Mulher, permitindo que o usuário crie mensagens personalizadas para mulheres importantes em sua vida.
-
-Além da geração da mensagem, o sistema também recomenda livros escritos por autoras, acompanhados de uma frase inspiradora na obra.
+A aplicação consiste em um gerador de homenagens para o Dia Internacional da Mulher, permitindo que o usuário crie mensagens personalizadas para mulheres importantes em sua vida. Além da geração da mensagem, o sistema também recomenda livros escritos por autoras, acompanhados de uma frase inspiradora na obra.
 
 O objetivo do projeto é demonstrar o desenvolvimento de uma aplicação web em Python, containerizada com Docker e publicada na nuvem utilizando serviços da Microsoft Azure, com acesso público via URL.
 
@@ -54,18 +52,17 @@ Para rodar o projeto e reproduzir o deploy, foi utilizado:
 
 O passo a passo completo de build da imagem Docker, execução local, criação dos recursos na nuvem e publicação do container está documentado no arquivo `script.ps1`.
 
-> Basta abrir o projeto no VS Code, garantir que o Azure CLI esteja logado (`az login`) e seguir os comandos registrados no `script.ps1`, substituindo os placeholders pelos seus próprios valores.
+## 🌐 Acesso à Aplicação Web
 
-## Tecnologias utilizadas
+A aplicação foi publicada na nuvem utilizando Azure Container Apps, permitindo acesso público via navegador. Após o deploy, o Azure gera automaticamente uma URL pública para acesso à aplicação.
 
-| Tecnologia | Finalidade |
-| --------- | --------- |
-| Python | Desenvolvimento da aplicação |
-| Streamlit | Interface web interativa |
-| Docker | Containerização da aplicação |
-| Microsoft Azure | Hospedagem da aplicação |
-| Azure Container Registry | Armazenamento da imagem Docker |
-| Azure Container Apps | Publicação do container com URL pública |
+Exemplo:
+
+```
+https://homenagem-streamlit-app--faiimsi.calmsea-2a22d05c.eastus.azurecontainerapps.io/
+```
+
+Toda a aplicação roda dentro de um container Docker, hospedado na infraestrutura da Microsoft Azure.
 
 ## 🤖 Uso de Inteligência Artificial
 
@@ -78,6 +75,17 @@ O uso de IA foi um requisito proposto na atividade do curso, sendo utilizado pri
 * suporte na criação do `script.ps1` com os comandos utilizados no deploy
 * revisão e sugestões de melhoria na documentação
 
+## Tecnologias
+
+| Tecnologia | Finalidade |
+| --------- | --------- |
+| Python | Desenvolvimento da aplicação |
+| Streamlit | Interface web interativa |
+| Docker | Containerização da aplicação |
+| Microsoft Azure | Hospedagem da aplicação |
+| Azure Container Registry | Armazenamento da imagem Docker |
+| Azure Container Apps | Publicação do container com URL pública |
+
 ## 💡 Aprendizados
 
 * Desenvolvimento de aplicações web com Python e Streamlit
@@ -86,6 +94,6 @@ O uso de IA foi um requisito proposto na atividade do curso, sendo utilizado pri
 * Deploy de aplicações web usando Azure Container Apps
 * Criação de aplicações acessíveis publicamente na nuvem
 
-## 👩‍💻 Autora
+## Autora
 
 Milla Regina Lopes Vieira - [LinkedIn](https://www.linkedin.com/in/milla-regina-468020206/)
