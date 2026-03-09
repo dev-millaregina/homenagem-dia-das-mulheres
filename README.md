@@ -29,17 +29,17 @@ homenagem-mulheres
 └── img/                  - Capturas de tela da aplicação
 ```
 
-## Screenshots
+## 📷 Screenshots
 
-#### Página inicial da aplicação
+#### 1️⃣ Página inicial da aplicação
 
 <img src="img/1-site.png" width="70%" />
 
-#### Formulário preenchido
+#### 2️⃣ Formulário preenchido
 
 <img src="img/2-dados-preenchidos.png" width="60%" />
 
-#### Resultado da homenagem gerada
+#### 3️⃣ Resultado da homenagem gerada
 
 <img src="img/3-retorno.png" width="60%" />
 
